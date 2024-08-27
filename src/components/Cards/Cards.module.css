@@ -20,3 +20,27 @@
     background-color: black;
     font-size: 28px;
 }
+
+@media (max-width: 768px) {
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .tecnica h2 {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {}

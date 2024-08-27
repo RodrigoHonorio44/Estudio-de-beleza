@@ -6,7 +6,7 @@ import icon from '../../assets/icons8-whatsapp-80.png'
 const Banner = () => {
     return (
         <>
-            <h1>Micropigmentação Sobrancelhas</h1>
+            <div className={styles.titulo}><h1>Micropigmentação Sobrancelhas</h1></div>
             <div className={styles.banner}>
                 <div className={styles.agendar}>
                     <a href='https://wa.me/5521975966330' target="_blank"><img src={icon} alt="whatsapp" /></a><p > Clique Aqui</p>
