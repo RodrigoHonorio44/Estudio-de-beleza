@@ -1,0 +1,22 @@
+.card_container {
+    padding-block: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+}
+
+.tecnica h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    color: #ffd700;
+    background-color: black;
+    font-size: 28px;
+}
