@@ -9,6 +9,6 @@
 @media (max-width: 768px) {
     .container {
         padding-top: 200px;
+        background-color: #ffffff;
     }
-
 }
