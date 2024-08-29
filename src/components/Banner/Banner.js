@@ -9,8 +9,10 @@ const Banner = () => {
             <div className={styles.titulo}><h1>Micropigmentação Sobrancelhas</h1></div>
             <div className={styles.banner}>
                 <div className={styles.agendar}>
-                    <a href='https://wa.me/5521975966330' target="_blank"><IoLogoWhatsapp size={30} style={{ color: '#22a241' }} /></a>
-                    <p > Clique Aqui</p>
+                    <button>
+                        <a href='https://wa.me/5521975966330' target="_blank">WhatsApp</a>
+                    </button>
+
                     <p>Se desejar agendar uma avaliação</p>
                 </div>
                 <div className={styles.avaliação}>

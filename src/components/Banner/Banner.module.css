@@ -39,11 +39,30 @@ img {
     padding-top: 100px;
 }
 
-.agendar a img {
+.agendar button {
     display: flex;
-    width: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
     height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #22a241;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
 }
+
+.agendar button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.agendar button:hover {
+    background-color: #69d95e;
+    font-size: 22px;
+}
+
 
 .tecnica h2 {
     display: flex;
