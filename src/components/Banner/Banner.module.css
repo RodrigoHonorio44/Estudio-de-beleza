@@ -36,8 +36,10 @@ img {
 .agendar {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    margin-top: -50px;
+
 }
+
 
 .agendar button {
     display: flex;
@@ -48,10 +50,15 @@ img {
     border-radius: 10px;
     border: none;
     background-color: #22a241;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     cursor: pointer;
     font-size: 20px;
+
 }
+
+.agendar img {}
 
 .agendar button a {
     color: #ffffff;

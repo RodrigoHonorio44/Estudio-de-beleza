@@ -1,19 +1,18 @@
 import React from 'react'
 import banner from '../../assets/sobrancelhas.jpg'
 import styles from './Banner.module.css'
-import icon from '../../assets/icons8-whatsapp-80.png'
-import { IoLogoWhatsapp } from "react-icons/io";
+import logo from '../../assets/logo5.png'
 const Banner = () => {
     return (
         <>
             <div className={styles.titulo}><h1>Micropigmentação Sobrancelhas</h1></div>
             <div className={styles.banner}>
                 <div className={styles.agendar}>
+                    <img src={logo} alt="logo marca" />
+                    <p>Se desejar agendar uma avaliação</p>
                     <button>
                         <a href='https://wa.me/5521975966330' target="_blank">WhatsApp</a>
                     </button>
-
-                    <p>Se desejar agendar uma avaliação</p>
                 </div>
                 <div className={styles.avaliação}>
                     <h3>Avaliação Gratuita</h3>

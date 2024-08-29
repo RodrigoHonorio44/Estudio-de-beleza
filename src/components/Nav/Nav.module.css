@@ -46,6 +46,7 @@
 .container {
     display: flex;
     width: 100%;
+
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
@@ -104,9 +105,10 @@
 
 .nav_container a:hover {
     font-size: 17px;
+    font-weight: bold;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    color: #ffd700;
+    color: #f5e279;
 
     transition: color 0.3s ease;
 }
@@ -146,6 +148,7 @@
     .nav_container a:hover {
         font-size: 17px;
         font-family: "Roboto", sans-serif;
+        font-weight: bold;
         transition: color 0.3s ease;
     }
 

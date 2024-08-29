@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Nav.module.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import logo from '../../assets/logo3.png'
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -12,6 +13,7 @@ const Nav = () => {
         <div className={styles.container}>
             <div className={styles.logo}>
                 <span>SusiGreyce</span>
+
             </div>
             <div className={styles.hamburger} onClick={toggleMenu}>
                 <span className={styles.bar}></span>
