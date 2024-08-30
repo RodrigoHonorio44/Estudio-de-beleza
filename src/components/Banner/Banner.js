@@ -11,7 +11,7 @@ const Banner = () => {
                     <img src={logo} alt="logo marca" />
                     <p>Se desejar agendar uma avaliação</p>
                     <button>
-                        <a href='https://wa.me/5521975966330' target="_blank">WhatsApp</a>
+                        <a href='https://api.whatsapp.com/send?1=pt_BR&phone=5521975966330' target="_blank">WhatsApp</a>
                     </button>
                 </div>
                 <div className={styles.avaliação}>
