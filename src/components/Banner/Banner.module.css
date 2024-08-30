@@ -103,6 +103,11 @@ img {
         padding-bottom: 20px;
     }
 
+    .agendar button a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
     .agendar a img {
         display: flex;
         width: 40px;
@@ -137,7 +142,5 @@ img {
         font-size: 30px;
     }
 
-    .avaliação p {
-        /* Adicione estilos específicos aqui */
-    }
+
 }
