@@ -3,12 +3,13 @@
     width: 100%;
     padding-top: 50px;
 
-    background-color: #fff8dd;
+    background-color: #ffffff;
 }
 
 @media (max-width: 768px) {
     .container {
         padding-top: 200px;
-        background-color: #fff8dd;
+        background-color: #ffffff;
     }
+
 }
