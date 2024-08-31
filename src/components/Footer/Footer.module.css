@@ -55,7 +55,7 @@
 
     .rodape {
         width: 100%;
-        height: 100px;
-        padding-bottom: 0;
+        height: auto;
+        padding-bottom: auto;
     }
 }
