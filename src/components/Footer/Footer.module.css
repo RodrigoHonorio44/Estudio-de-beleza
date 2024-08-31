@@ -46,7 +46,7 @@
 @media (max-width: 768px) {
     .redes {
         display: flex;
-
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 3px;
@@ -55,6 +55,6 @@
 
     .rodape {
         width: 100%;
-        height: 170px;
+        height: 100px;
     }
 }
