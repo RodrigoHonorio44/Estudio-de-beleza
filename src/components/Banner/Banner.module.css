@@ -28,14 +28,17 @@
 .sobrancelha,
 
 img {
-    padding-bottom: 20px;
-    width: 250px;
+    padding-bottom: 5px;
+    width: 300px;
     height: 200px;
+
 }
 
 .agendar {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: -50px;
 
 }
@@ -99,7 +102,7 @@ img {
     .agendar {
         display: flex;
         flex-direction: column;
-        padding-top: 40px;
+        padding-top: 50px;
         padding-bottom: 20px;
     }
 

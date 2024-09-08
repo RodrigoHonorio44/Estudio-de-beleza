@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Nav.module.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import logo from '../../assets/logo3.png'
+import logo from '../../assets/sobrancelhas expert (1).png'
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +12,7 @@ const Nav = () => {
     return (
         <div className={styles.container}>
             <div className={styles.logo}>
-                <span>SusiGreyce</span>
+                <span><img src={logo} alt="" /></span>
 
             </div>
             <div className={styles.hamburger} onClick={toggleMenu}>

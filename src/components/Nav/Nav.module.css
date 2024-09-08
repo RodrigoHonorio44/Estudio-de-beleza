@@ -113,6 +113,11 @@
     transition: color 0.3s ease;
 }
 
+.logo img {
+    width: 250px;
+    height: 90px;
+}
+
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
@@ -125,7 +130,7 @@
     .nav_container {
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 90px;
         right: 0;
         width: 100%;
         background-color: #ffffff;
@@ -154,6 +159,8 @@
 
     .nav_container.open {
         display: flex;
+
+
 
         /* Mostra o menu quando o hamburguer é clicado */
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import banner from '../../assets/sobrancelhas.jpg'
 import styles from './Banner.module.css'
-import logo from '../../assets/logo5.png'
+import logo from '../../assets/sobrancelhas expert (1).png'
 const Banner = () => {
     return (
         <>

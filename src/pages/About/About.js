@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './About.module.css'
 import Container from '../../components/Container/Container'
-import susi from '../../assets/Banner susi.png'
+import susi from '../../assets/publicidade1.png'
+import susi1 from '../../assets/publicidade.png'
 const About = () => {
     return (
         <>
@@ -9,6 +10,8 @@ const About = () => {
                 <div className={styles.container}>
 
                     <img src={susi} alt="" />
+                    <br />
+                    <img src={susi1} alt="" />
                 </div>
             </Container>
         </>
