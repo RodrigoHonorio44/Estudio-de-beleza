@@ -11,7 +11,7 @@ const Footer = () => {
 
                 <div className={styles.redes}>
                     <div className={styles.funcionamento}>
-                        <h4>HORÁRIO DE FUNCIONAMETO</h4>
+                        <h3>HORÁRIO DE FUNCIONAMETO</h3>
 
                         <p>Segunda à Sexta 9h às 18:00</p>
                         <p>Sábado das 9h ás 17h</p>

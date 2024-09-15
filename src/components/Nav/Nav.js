@@ -23,6 +23,7 @@ const Nav = () => {
             <nav className={`${styles.nav_container} ${isOpen ? styles.open : ''}`}>
                 <Link to='/' className='nav-li-li'>Home</Link>
                 <Link to='/about' className='nav-li-li'>Sobre</Link>
+                <Link to='/curso' className='nav-li-li'>Curso</Link>
                 <Link to='/contact' className='nav-li-li'>Contato</Link>
             </nav>
         </div>

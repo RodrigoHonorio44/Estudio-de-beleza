@@ -136,6 +136,7 @@
         background-color: #ffffff;
         padding: 10px 20px;
         display: none;
+        gap: 10px;
 
 
     }
@@ -147,6 +148,9 @@
         color: black;
         transition: color 0.3s ease;
 
+        width: 57px;
+
+
 
     }
 
@@ -154,12 +158,12 @@
         font-size: 17px;
         font-family: "Roboto", sans-serif;
         font-weight: bold;
+        color: #ffd700;
         transition: color 0.3s ease;
     }
 
     .nav_container.open {
         display: flex;
-
 
 
         /* Mostra o menu quando o hamburguer é clicado */
